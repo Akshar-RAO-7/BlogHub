@@ -99,17 +99,24 @@ git clone https://github.com/Akshar-RAO-7/BlogHub.git
 
 Navigate to the project folder:
 
+```
 cd BlogHub
 
+```
 Install dependencies:
 
+```
 npm install
+
+```
 🚀 Usage
 
 Start the development server:
 
+```
 npm run dev
 
+```
 🔄 Development Workflow
 
 1️⃣ Install dependencies using npm install
