@@ -55,6 +55,7 @@ Technology	Purpose
 🎨 CSS	Styling & layout
 🧠 Context API	State management
 📂 Project Structure
+```
 BLOGHUB/
 ├── .vscode/
 │   ├── .studio/
@@ -88,6 +89,8 @@ BLOGHUB/
 ├── package.json
 ├── README.md
 └── vite.config.js
+
+```
 ⚙️ Installation
 
 Clone the repository:
@@ -106,8 +109,6 @@ npm install
 Start the development server:
 
 npm run dev
-
-Your app will be accessible at http://localhost:5173 (default Vite port).
 
 🔄 Development Workflow
 
