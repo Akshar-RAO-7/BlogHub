@@ -1,39 +1,150 @@
-## React
+📝 BlogHub (React + Vite)
 
-This is a simple React application. This application serves as a basic template for a react applications.  
-This project is bootstrapped with [Vite](https://vitejs.dev/guide/).
+BlogHub is a modern blogging platform frontend built using React ⚛️ and Vite ⚡.
+It allows users to create, search, and view blog posts in a clean, responsive interface.
 
-## How to run
+The project aims to practice component-based architecture, state management, and React Context API while building a scalable blogging platform UI.
 
-1. Before running the application, make sure all dependencies are installed. To install dependencies, run following command in terminal:
+📌 Project Overview
 
-   ```sh
-   npm install
-   ```
+Blogging platforms require modular UI design, efficient state handling, and interactive components.
+This project demonstrates how to build a React frontend application that supports creating, viewing, and searching blogs.
 
-2. Once dependencies are installed, run the following command to start the application:
+🎯 Key Objectives
 
-   ```sh
-   npm run dev
-   ```
+• Design a responsive blog UI ✍️
+• Build reusable React components ⚛️
+• Manage global blog state using React Context API 🧠
+• Implement modal-based blog creation 🖊️
+• Add search functionality for posts 🔍
+• Use Vite for fast development and build performance ⚡
 
-3. Refresh the URL in simple browser to see the output.
+✨ Features
 
-## FAQs & Debugging
+• 📝 Create and submit new blog posts
+• 🔍 Search and filter blog posts
+• 📄 Display blogs in a card-based layout
+• ⚡ Fast development with Vite
+• 🧩 Component-based scalable architecture
+• 📱 Fully responsive UI
+• 🗑️ Empty state UI for no posts
 
-### 1. I do not see browser in my workspace
+🛠️ Tech Stack
+Technology	Purpose
+⚛️ React	Frontend library
+⚡ Vite	Development and build tool
+🟨 JavaScript	Application logic
+🎨 CSS	Styling and layout
+🧠 Context API	State management 
+📂 Project Structure
+BLOGHUB/
 
-Studio will automatically open the app in a new browser tab. If not, you can use the following steps to open the simple browser
+├── .vscode/
+│   ├── .studio/
+│   ├── launch.json
+│   ├── settings.json
+│   └── tasks.json
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/
+│   │   └── react.svg
+│   ├── components/
+│   │   ├── BlogCard.jsx
+│   │   ├── EmptyState.jsx
+│   │   ├── InputField.jsx
+│   │   ├── Navigation.jsx
+│   │   ├── PostModal.jsx
+│   │   └── SearchBar.jsx
+│   ├── context/
+│   │   └── BlogContext.jsx
+│   ├── pages/
+│   │   ├── BlogCreation.jsx
+│   │   └── MainBlog.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .eslintrc.cjs
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
+⚙️ Installation
 
-1. From VS Code command pallette(`Ctrl/Cmd + Shift + P`), run **Studio Manager: SimpleBrowser Default URL** command. This will open the app in a new browser tab.
+Clone the repository:
 
-2. Your app runs on hosted env which can be accessed using host id, port provided in file **.vscode/.studio/studio-env.json**. Use values to create the URL as follows:
-   `https://<STUDIO_HOST_ID>-3000.<STUDIO_DOMAIN>`
+git clone https://github.com/Akshar-RAO-7/BlogHub.git
 
-### 2. Getting `vite: not found` error
+Navigate to the project directory:
 
-This means node_modules are missing in your workspace, please refer the 'How to run' section and make sure you have followed the steps in sequence
+cd BlogHub
 
-### 3. Can I use create-react-app instead Vite?
+Install dependencies:
 
-Yes, you can use create-react-app instead Vite, the default workspace is loaded with Vite setup, you can remove the Vite dependencies, add create-react-app dependencies and update the scripts to start using create-react-app.
+npm install
+🚀 Usage
+
+Start the development server:
+
+npm run dev
+
+The application will run locally at:
+
+http://localhost:5173
+🔄 Development Workflow
+
+1️⃣ Install dependencies using npm install
+2️⃣ Start the development server with npm run dev
+3️⃣ Edit components inside the src directory
+4️⃣ React automatically reloads the browser during development
+
+📊 Results and Learning Outcomes
+
+Through this project, the following concepts were implemented:
+
+• ⚛️ Component-based UI development
+• 🧠 State management using Context API
+• 📝 Modal-driven blog creation
+• 🔍 Search and filter functionality
+• 📂 Scalable React project structure
+• ⚡ Fast development workflow with Vite
+
+💡 Applications
+
+This project can serve as a foundation for:
+
+• ✍️ Blogging platforms or personal journals
+• 💼 Frontend portfolio projects
+• 🧪 UI prototyping for content platforms
+• 📚 Learning React and Context API
+
+🧰 Technologies Used
+
+⚛️ React
+🟨 JavaScript
+⚡ Vite
+🎨 CSS
+🧠 Context API
+📦 npm
+
+🔮 Future Improvements
+
+• 🔐 User authentication and profiles
+• 🖼️ Image upload for blog posts
+• ☁️ Backend integration (Node.js / Firebase)
+• 💬 Commenting system
+• 📱 Advanced mobile responsiveness
+
+👨‍💻 Author
+
+Akshar Rao
+🎓 B.E. Computer Science (AI/ML)
+🏫 Chandigarh University
+
+🔗 GitHub Profile: https://github.com/Akshar-RAO-7
+
+📜 License
+
+📄 This project is licensed under the MIT License.
