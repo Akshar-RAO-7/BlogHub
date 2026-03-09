@@ -38,7 +38,7 @@ Technology	Purpose
 🧠 Context API	State management 
 📂 Project Structure
 BLOGHUB/
-
+''''
 ├── .vscode/
 │   ├── .studio/
 │   ├── launch.json
@@ -71,6 +71,8 @@ BLOGHUB/
 ├── package.json
 ├── README.md
 └── vite.config.js
+
+''''
 ⚙️ Installation
 
 Clone the repository:
@@ -90,9 +92,6 @@ Start the development server:
 
 npm run dev
 
-The application will run locally at:
-
-http://localhost:5173
 🔄 Development Workflow
 
 1️⃣ Install dependencies using npm install
