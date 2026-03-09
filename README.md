@@ -89,7 +89,6 @@ BLOGHUB/
 ├── package.json
 ├── README.md
 └── vite.config.js
-
 ```
 ⚙️ Installation
 
@@ -101,21 +100,17 @@ Navigate to the project folder:
 
 ```
 cd BlogHub
-
 ```
 Install dependencies:
 
 ```
 npm install
-
 ```
 🚀 Usage
 
 Start the development server:
-
 ```
 npm run dev
-
 ```
 🔄 Development Workflow
 
